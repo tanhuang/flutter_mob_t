@@ -1,13 +1,13 @@
-#import "FlutterMobTPlugin.h"
+#import "FlutterMobPlugin.h"
 #import <SMS_SDK/SMSSDK.h>
 #import <ShareSDKUI/ShareSDKUI.h>
 #import <ShareSDKUI/ShareSDK+SSUI.h>
 #import <ShareSDKUI/SSUIShareSheetConfiguration.h>
 
-@implementation FlutterMobTPlugin
+@implementation FlutterMobPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
     FlutterMethodChannel* channel = [FlutterMethodChannel
-                                     methodChannelWithName:@"flutter_mob_t"
+                                     methodChannelWithName:@"flutter_mob"
                                      binaryMessenger:[registrar messenger]];
     FlutterMobPlugin* instance = [[FlutterMobPlugin alloc] init];
     [registrar addMethodCallDelegate:instance channel:channel];

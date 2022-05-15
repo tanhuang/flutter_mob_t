@@ -1,4 +1,4 @@
-group 'com.th.flutter_mob_t'
+group 'com.ly.flutter_mob'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -27,7 +27,12 @@ rootProject.allprojects {
 }
 
 apply plugin: 'com.android.library'
-apply plugin: 'com.mob.sdk'
+// apply plugin: 'com.mob.sdk'
+
+apply plugin: 'com.android.application'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+// 导入MobSDK
+**apply plugin: 'com.mob.sdk'**
 
 android {
     compileSdkVersion 28

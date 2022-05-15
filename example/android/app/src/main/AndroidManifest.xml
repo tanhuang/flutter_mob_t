@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.th.flutter_mob_t_example">
+    package="com.ly.flutter_mob_example">
 
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
          calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -9,7 +9,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="flutter_mob_t_example"
+        android:label="flutter_mob_example"
         android:icon="@mipmap/ic_launcher"
         tools:replace="android:name">
         <activity

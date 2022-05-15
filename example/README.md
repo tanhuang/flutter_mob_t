@@ -1,6 +1,6 @@
 # flutter_mob_example
 
-Demonstrates how to use the flutter_mob_t plugin.
+Demonstrates how to use the flutter_mob plugin.
 
 ## Getting Started
 

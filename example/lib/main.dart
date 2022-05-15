@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mob_t/flutter_mob_t.dart';
+import 'package:flutter_mob/flutter_mob.dart';
 
 void main() => runApp(MyApp());
 

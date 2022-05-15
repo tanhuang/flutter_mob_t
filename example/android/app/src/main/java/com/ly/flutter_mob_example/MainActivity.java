@@ -1,4 +1,4 @@
-package com.th.flutter_mob_t_example;
+package com.ly.flutter_mob_example;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

@@ -1,4 +1,4 @@
-package com.th.flutter_mob_t;
+package com.ly.flutter_mob;
 
 import com.mob.MobSDK;
 
@@ -33,7 +33,7 @@ public class FlutterMobPlugin implements MethodCallHandler {
     private Handler handler = new Handler();
 
     public static void registerWith(Registrar registrar) {
-        final MethodChannel channel = new MethodChannel(registrar.messenger(), "flutter_mob_t");
+        final MethodChannel channel = new MethodChannel(registrar.messenger(), "flutter_mob");
         channel.setMethodCallHandler(new FlutterMobPlugin(registrar));
     }
 

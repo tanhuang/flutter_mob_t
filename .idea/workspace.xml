@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0b87e09-a4b0-4f09-b466-19d7f92b995a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/ly/flutter_mob_t/FlutterMobTPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/ly/flutter_mob_t/FlutterMobTPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/ly/flutter_mob/FlutterMobPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/ly/flutter_mob/FlutterMobPlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,7 +97,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/main/java/com/ly//FlutterMobTPlugin.java">
+        <entry file="file://$PROJECT_DIR$/android/src/main/java/com/ly/flutter_mob/FlutterMobPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-38">
               <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
@@ -155,7 +155,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/ly/flutter_mob_t/FlutterMobTPlugin.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/ly/flutter_mob/FlutterMobPlugin.java" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
       </list>
     </option>
@@ -177,28 +177,28 @@
         <subPane>
           <expand>
             <path>
-              <item name="flutter_mob_t" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_mob_t" type="462c0819:PsiDirectoryNode" />
+              <item name="flutter_mob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_mob" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="flutter_mob_t" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_mob_t" type="462c0819:PsiDirectoryNode" />
+              <item name="flutter_mob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_mob" type="462c0819:PsiDirectoryNode" />
               <item name="android" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="flutter_mob_t" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_mob_t" type="462c0819:PsiDirectoryNode" />
+              <item name="flutter_mob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_mob" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="flutter_mob_t" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_mob_t" type="462c0819:PsiDirectoryNode" />
+              <item name="flutter_mob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_mob" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="android" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="flutter_mob_t" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_mob_t" type="462c0819:PsiDirectoryNode" />
+              <item name="flutter_mob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_mob" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -297,7 +297,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CHANGELOG.md" />
-    <entry file="file://$PROJECT_DIR$/lib/flutter_mob_t.dart">
+    <entry file="file://$PROJECT_DIR$/lib/flutter_mob.dart">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/AndroidManifest.xml">
@@ -310,7 +310,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/android/app/src/main/java/com/ly/flutter_mob_t_example/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/example/android/app/src/main/java/com/ly/flutter_mob_example/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -324,7 +324,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/ly/flutter_mob_t/FlutterMobTPlugin.java">
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/ly/flutter_mob/FlutterMobPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38">
           <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />

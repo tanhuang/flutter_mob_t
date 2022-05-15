@@ -1,4 +1,4 @@
-# flutter_mob_t
+# flutter_mob
 
 A new Flutter plugin.
 
