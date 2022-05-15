@@ -1,4 +1,4 @@
-group 'com.ly.flutter_mob'
+group 'com.th.flutter_mob_t'
 version '1.0-SNAPSHOT'
 
 buildscript {

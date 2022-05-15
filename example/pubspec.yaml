@@ -1,5 +1,5 @@
-name: flutter_mob_example
-description: Demonstrates how to use the flutter_mob plugin.
+name: flutter_mob_t_example
+description: Demonstrates how to use the flutter_mob_t plugin.
 publish_to: 'none'
 
 environment:
@@ -17,7 +17,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_mob:
+  flutter_mob_t:
     path: ../
 
 # For information on the generic Dart part of this file, see the

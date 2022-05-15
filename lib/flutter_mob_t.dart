@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 
 class FlutterMob {
-  static const MethodChannel channel = const MethodChannel('flutter_mob');
+  static const MethodChannel channel = const MethodChannel('flutter_mob_t');
 
   static Future<void> init(String appKey, String appSecret) async {
     await channel.invokeMethod('init', {'appKey': appKey, 'appSecret': appSecret});
