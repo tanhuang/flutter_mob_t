@@ -14,6 +14,7 @@ import cn.sharesdk.onekeyshare.OnekeyShare;
 import cn.sharesdk.sina.weibo.SinaWeibo;
 import cn.sharesdk.tencent.qq.QQ;
 import cn.sharesdk.wechat.friends.Wechat;
+// import cn.smssdk.EventHandler
 import cn.smssdk.EventHandler;
 import cn.smssdk.SMSSDK;
 import io.flutter.plugin.common.MethodCall;
