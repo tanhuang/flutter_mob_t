@@ -2,14 +2,16 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 
 class FlutterMob {
-  static const MethodChannel channel = const MethodChannel('flutter_mob');
+  static const MethodChannel channel = const MethodChannel('flutter_mob_t');
 
   static Future<void> init(String appKey, String appSecret) async {
-    await channel.invokeMethod('init', {'appKey': appKey, 'appSecret': appSecret});
+    await channel
+        .invokeMethod('init', {'appKey': appKey, 'appSecret': appSecret});
   }
 
   static Future<MobResult> getCode(String phone) async {
-    final Map<dynamic, dynamic> getCode = await channel.invokeMethod('getCode', {'phone': phone});
+    final Map<dynamic, dynamic> getCode =
+        await channel.invokeMethod('getCode', {'phone': phone});
     MobResult result = new MobResult();
     result.status = getCode["status"];
     result.msg = getCode["msg"];
@@ -17,7 +19,8 @@ class FlutterMob {
   }
 
   static Future<MobResult> commitCode(String phone, String code) async {
-    final Map<dynamic, dynamic> getCode = await channel.invokeMethod('commitCode', {'phone': phone, 'code': code});
+    final Map<dynamic, dynamic> getCode = await channel
+        .invokeMethod('commitCode', {'phone': phone, 'code': code});
     MobResult result = new MobResult();
     result.status = getCode["status"];
     result.msg = getCode["msg"];
@@ -29,7 +32,8 @@ class FlutterMob {
   }
 
   static Future<MobResult> auth(int platform) async {
-    final Map<dynamic, dynamic> auth = await channel.invokeMethod('auth', platform);
+    final Map<dynamic, dynamic> auth =
+        await channel.invokeMethod('auth', platform);
     MobResult result = new MobResult();
     result.status = auth['status'];
     result.msg = auth['msg'];
@@ -37,8 +41,15 @@ class FlutterMob {
     return result;
   }
 
-  static Future<void> share(String title, String text, String imagePath, String url, String titleUrl) async {
-    await channel.invokeMethod('share', {'title': title, 'text': text, 'imagePath': imagePath, 'url': url, 'titleUrl': titleUrl});
+  static Future<void> share(String title, String text, String imagePath,
+      String url, String titleUrl) async {
+    await channel.invokeMethod('share', {
+      'title': title,
+      'text': text,
+      'imagePath': imagePath,
+      'url': url,
+      'titleUrl': titleUrl
+    });
   }
 }
 
@@ -55,7 +66,6 @@ class Platforms {
 }
 
 class MobRegister {
-
   final Map map = {};
 
   void setupWechat(String appId, String appSecret) {
