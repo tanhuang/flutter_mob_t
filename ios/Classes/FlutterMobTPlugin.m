@@ -1,8 +1,8 @@
 #import "FlutterMobTPlugin.h"
-#import <SMS_SDK/SMSSDK.h>
-#import <ShareSDKUI/ShareSDKUI.h>
-#import <ShareSDKUI/ShareSDK+SSUI.h>
-#import <ShareSDKUI/SSUIShareSheetConfiguration.h>
+#import <SMS_SDK/SMSSDK.h>>
+#import <ShareSDK/ShareSDK.h>
+//#import <ShareSDKUI/ShareSDK+SSUI.h>
+//#import <ShareSDKUI/SSUIShareSheetConfiguration.h>
 
 @implementation FlutterMobTPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
@@ -75,21 +75,9 @@
                                             url:[NSURL URLWithString:url]
                                           title:title
                                            type:SSDKContentTypeAuto];
-        SSUIShareSheetConfiguration *config = [[SSUIShareSheetConfiguration alloc] init];
-        [ShareSDK showShareActionSheet:nil
-                           customItems:@[@(SSDKPlatformSubTypeWechatSession),
-                                         @(SSDKPlatformSubTypeWechatTimeline),
-                                         @(SSDKPlatformSubTypeQQFriend),
-                                         @(SSDKPlatformTypeSinaWeibo)]
-                           shareParams:shareParams
-                    sheetConfiguration:config
-                        onStateChanged:^(SSDKResponseState state,
-                                         SSDKPlatformType platformType,
-                                         NSDictionary *userData,
-                                         SSDKContentEntity *contentEntity,
-                                         NSError *error,
-                                         BOOL end) {
-         }];
+        [ShareSDK share:@[@(SSDKPlatformSubTypeWechatSession), @(SSDKPlatformSubTypeWechatTimeline), @(SSDKPlatformSubTypeQQFriend), @(SSDKPlatformTypeSinaWeibo)] parameters:shareParams onStateChanged:^(SSDKResponseState state, NSDictionary *userData, SSDKContentEntity *contentEntity, NSError *error) {
+            
+        }];
     } else {
         result(FlutterMethodNotImplemented);
     }
