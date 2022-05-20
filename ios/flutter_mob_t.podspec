@@ -3,12 +3,12 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_mob_t'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'A new Flutter plugin.'
   s.description      = <<-DESC
 A new Flutter plugin.
                        DESC
-  s.homepage         = 'https://github.com/tanhuang/flutter_mob_t.git'
+  s.homepage         = 'https://github.com/tanhuang/flutter_mob_t'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'tanhuang' => '421526639@qq.com' }
   s.source           = { :git =>  'https://github.com/tanhuang/flutter_mob_t.git', :tag => "#{s.version}" }
