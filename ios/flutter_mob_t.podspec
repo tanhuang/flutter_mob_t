@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_mob_t'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'A new Flutter plugin.'
   s.description      = <<-DESC
 A new Flutter plugin.
@@ -17,6 +17,6 @@ A new Flutter plugin.
   s.dependency 'mob_smssdk'
   s.dependency 'mob_sharesdk'
   s.ios.deployment_target = '9.0'
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  s.xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 end
 
